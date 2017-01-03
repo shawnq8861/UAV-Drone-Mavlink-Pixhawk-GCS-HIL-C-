@@ -1,0 +1,2 @@
+# UAV-Drone-Mavlink-Pixhawk-GCS-HIL-C-
+A basic ground control station (GCS) interface for performing repetitive cycle testing on a Pixhawk-based drone.  Used initially for hardware-in-the-loop (HIL) testing on a fixed wing drone.  Servo drive values are overriden via serial mavlink commands sent over USB port by host program.  Implemented on Windows using Win32 API for serial port write and read, with multi-threading, waitable timer, mutex, and wait conditions.
